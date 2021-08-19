@@ -1,0 +1,8 @@
+.nav1Btn{
+    border: 2px solid white;
+    color: white;
+}
+.nav1Btn:hover{
+    color: black;
+    background-color: white;
+}

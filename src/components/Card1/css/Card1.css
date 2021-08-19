@@ -1,0 +1,76 @@
+.card1Row{
+    margin-top: 15px;
+transition-duration: 1s ease all;
+}
+.card1Image{
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+.clockIcon{
+    color: white;
+    margin-right: 10px;
+}
+.card1Header{
+    color: white;
+    background: linear-gradient(90deg, rgba(84,99,164,1) 20%, rgba(68,84,162,1) 30%, rgba(35,62,209,1) 92%);
+    padding: 12px;
+    font-weight: bold;
+}
+.card1Column{
+    border-radius: 15px;
+    background: white
+}
+.youtubeIcon{
+    color: rgba(248, 17, 67, 0.925);
+    background-color: rgb(243, 187, 187);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.bookmarkIcon{
+    color: rgb(207, 160, 30);
+    background-color: rgb(241, 241, 119);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.youtubeText{
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.bookmarkText{
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.acrobatIcon{
+    color: rgb(240, 42, 42);
+   
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.acrobatText{
+    color: gray;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.iconsBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1Column:hover{
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px){
+.card1Header{
+    font-size: 12px;
+}
+.cardTitle{
+    font-size: 20px;
+}
+   }
