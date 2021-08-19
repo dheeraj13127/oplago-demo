@@ -1,26 +1,13 @@
-import React, { useState } from "react";
-import "../css/CarouselComponent.css";
+import React from "react";
+import './css/CarouselComponent.css'
 import Navbar from "../Navbar/Navbar";
 import { GoPrimitiveDot } from "react-icons/go";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 import Card1 from "../Card1/Card1";
 import Card2 from "../Card2/Card2";
 function CarouselComponent() {
-  const [auth, setAuth] = useState(1);
-  const onPreviousClick = () => {
-    if (auth === 2) {
-      setAuth(1);
-    } else {
-      setAuth(1);
-    }
-  };
-  const onNextClick = () => {
-    if (auth === 1) {
-      setAuth(2);
-    } else {
-      setAuth(2);
-    }
-  };
+
+
   return (
     <div>
       <Navbar />
